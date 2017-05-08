@@ -1,0 +1,101 @@
+body {
+  font: normal 1em sans-serif;
+  height: 96vh;
+  padding: 0 19vw;
+  margin: 0;
+  background-color: #fea;
+} 
+header {
+  text-align: center;
+}
+main {
+  width: 60vw;
+}
+h2 {
+  border-bottom: 2px solid #d95;
+  color: #a70;
+}
+h2#computerScore,
+h2#playerScore {
+  border: none;
+  font-size: 10vh;
+  margin: 0;
+}
+#board {
+  position: relative;
+}
+#controls {
+  text-align: center;
+}
+#currentMessage {
+  padding: 10px;
+  background-color: #d95;
+  border-bottom: 1px dashed #ccf;
+}
+#gamePanel {
+  background-color: #ddd;
+  border: 1px solid black;
+  height: 200px;
+  overflow: hidden;
+}
+#playerBox {
+  border-right: 2px solid #d95;
+  float: left;
+  width: 49%;
+  height: 100%;
+}
+#computerBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.clr {
+  clear: both;
+}
+.clr::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.hide {
+  display: none;
+}
+.square {
+  height: 20vh;
+  width: 20vw;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  background-color: #ccc;
+  text-align: center;
+  font-size: 20vh;
+}
+.player {
+  color: blue;
+}
+.computer {
+  color: red;
+}
+.button {
+  padding: 5px;
+  border: 1px solid #777;
+  border-radius: 30%;
+  width: 200px;
+  margin: 10px auto 0 auto;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #fcc;
+}
+.replay {
+  border-radius: 50%;
+  font-size: 8vh;
+  padding: 5vh;
+  background-color: rgba(0, 255, 0, 0.5);
+}

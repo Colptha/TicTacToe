@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css" />
+  </head>
+  <body> 
+    <header>
+      <h1>Tic-Tac-Toe</h1>
+    </header>
+    <main>
+      <div id="board" class="clr">
+        <div id="one" class="square"></div>
+        <div id="two" class="square"></div>
+        <div id="three" class="square"></div>
+        <div id="four" class="square"></div>
+        <div id="five" class="square"></div>
+        <div id="six" class="square"></div>
+        <div id="seven" class="square"></div>
+        <div id="eight" class="square"></div>
+        <div id="nine" class="square"></div>
+      </div>
+      <div id="controls">
+        <div class="button" id="startGameButton">Start Game!</div>
+        <div id="gamePanel" class="hide">
+          <div id="currentMessage">
+          </div>
+          <div id="playAgain" class="centered button replay hide">Play Again?</div>
+          <div id="playerBox">
+            <h2 id="playerName"></h2>
+            <h2 id="playerScore">0</h2>
+          </div>
+          <div id="computerBox">
+            <h2>Computer</h2>
+            <h2 id="computerScore">0</h2>
+          </div>
+        </div>
+      </div>
+
+      <script src="tic-tac-toe.js"></script>
+
+    </main>
+  </body>
+</html>
